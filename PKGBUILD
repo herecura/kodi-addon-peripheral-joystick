@@ -1,8 +1,7 @@
-# $Id$
 # Maintainer: BlackEagle <ike.devolder@gmail.com>>
 
 pkgname=kodi-addon-peripheral-joystick
-pkgver=1.3.4
+pkgver=1.4.6
 pkgrel=1
 pkgdesc="Joystick support for Kodi"
 arch=('x86_64')
@@ -12,7 +11,7 @@ groups=('kodi-addons' 'kodi-addons-peripheral')
 depends=('kodi-platform')
 makedepends=('cmake' 'kodi-dev')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/xbmc/peripheral.joystick/archive/v$pkgver.tar.gz")
-sha512sums=('1f5a7ae946c788c72562001b365e4de631288d4bc31d7960d0172c6e381dee221ec6b099619999d12e14fff67893a2d5cf29ecf90b2d541cd0e1f969233f1df2')
+sha512sums=('ae42a295e548c6bda7a258d02d7a68ec3f34c66e88b1e3848181d8fb76da6ff83f19f8adc007e2697c096052fdd1ea9879b178aab9f8f4118f4d2d57691c2a7c')
 
 build() {
     cd "peripheral.joystick-$pkgver"
